@@ -1,0 +1,60 @@
+body{
+    background-color: rgba(36, 179, 31, 0.815);
+}
+.hide{
+    display: none;
+}
+
+.car, .enemy{
+    position: absolute;
+    bottom: 200px;
+    margin: auto;
+    width: 48px;
+    height: 100px;
+    background-color: rgb(234, 237, 240);
+    border-radius: 20%;
+    font-size: 2rem;
+    color: antiquewhite;
+    text-align: center;
+    background-image: url(../img/car-top.png);
+    background-size:cover ;
+    background-position-x: -26px;
+}
+.gameArea{
+    background-color: rgba(36, 12, 12, 0.534);
+    width: 400px;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+}
+.line{
+    position: absolute;
+    height: 100px;
+    width: 10px;
+    margin-left: 46%;
+    background-color: antiquewhite;
+}
+.score{
+    background-color: black;
+    height: 60px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 1.5rem;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.startScreen{
+    position: absolute;
+    background-color: red;
+    left: 25%;
+    top: 30%;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    width: 50%;
+    border: 1px solid red;
+    color: antiquewhite;
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    z-index: 1;
+}
